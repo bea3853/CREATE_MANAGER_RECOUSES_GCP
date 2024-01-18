@@ -2,10 +2,10 @@
 
 
 
-export INSTANCE_NAME=nucleus-jumphost-804
-export ZONE=us-west4-b
-export PORT=8081
-export FIREWALL_RULE_NAME=grant-tcp-rule-920
+- export INSTANCE_NAME=nucleus-jumphost-804
+- export ZONE=us-west4-b
+- export PORT=8081
+- export FIREWALL_RULE_NAME=grant-tcp-rule-920
 
 
 
