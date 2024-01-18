@@ -1,4 +1,4 @@
-# CREATE_MANAGER_RECOUSES_GCP
+# CREATE_MANAGER_RECOUSES_GCP - BOSS 
 
 
 
@@ -14,15 +14,15 @@ gcloud compute instances create $INSTANCE_NAME \
   --zone=$ZONE \
   --machine-type=e2-micro
 
-# Set the default zone and region
 
-# Create a Kubernetes cluster
+
+
 gcloud container clusters create nucleus-cluster \
   --zone=$ZONE \
   --num-nodes=1 \
   --machine-type=n1-standard-1
 
-# Deploy a placeholder application (hello-app)
+
 kubectl create deployment hello-server --image=gcr.io/google-samples/hello-app:2.0
 
 kubectl expose deployment hello-server \
